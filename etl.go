@@ -62,7 +62,7 @@ type Info struct {
 
 func getFileName() string {
 
-	fmt.Print("Enter filename (for example 'text.txt'): ")
+	fmt.Print("Enter filename (for example 'db.csv'): ")
 	var input string
 	fmt.Scanln(&input)
 	return input
